@@ -1,0 +1,31 @@
+#Executing git init command initializes a new Git repository in the current directory
+git init
+#Running git add . command adds all files and changes in the current directory and its subdirectories to the staging area. 
+git add .
+#crate a txt file
+touch fileName.txt
+#detail of txt file
+cat fileName.txt
+#check status git 
+git status
+#The git commit -m command is used in Git version control to commit changes to the repository along with a commit message.
+git commit -m "first Commit"
+The git restore --stage command is used to unstage changes from the staging area in Git.
+git restore --stage
+#The git log command is used to display a history of commits in a Git repository
+git log
+#delete the file 
+rm -rf names.txt
+#git push to push on github
+git push 
+#The git remote add command is used to add a new remote repository to your local Git repository
+git remote
+#The git branch command in Git is used to list, create, or delete branches in a repository. 
+git branch
+
+delete the file from project and stage the removal for commit
+#git rm [file]
+#Save modified and staged changes
+git stash
+#retrieve an entire repository from a hosted location via URL
+git clone[url]
